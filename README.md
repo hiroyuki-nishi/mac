@@ -21,3 +21,7 @@ https://github.com/nvm-sh/nvm#troubleshooting-on-macos
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
 ```
+13. sbtのインストール
+```
+brew install sbt
+```

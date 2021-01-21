@@ -57,3 +57,6 @@ precmd () { vcs_info }
 PROMPT='
 [%B%F{red}%n@%m%f%b:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
 %F{yellow}$%f '
+
+# pyenvのバージョン切り替わらない問題
+eval "$(pyenv init -)"

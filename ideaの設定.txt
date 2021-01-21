@@ -1,0 +1,9 @@
+-Xms2G
+-Xmx3048m
+-XX:+UseG1GC
+-XX:-UseParNewGC
+-XX:-UseConcMarkSweepGC
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseCompressedOops
+-XX:+OmitStackTraceInFastThrow
+-Dsun.io.useCanonCaches=false

@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 # すっきりしたプロンプト表示 (不要ならコメントアウト)
 PROMPT='%~ %# '
  
-# zsh-completions の設定。コマンド補完機能
+# zsh-completions の設定。コマンド補完機能(brew install zsh-completionsでインストール後に設定してください)
 autoload -U compinit && compinit -u
  
 # git のカラー表示
